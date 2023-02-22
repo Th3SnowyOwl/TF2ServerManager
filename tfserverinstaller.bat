@@ -17,9 +17,9 @@ curl -O https://raw.githubusercontent.com/Th3SnowyOwl/tf2installercdn/main/tf2_d
 cmd.exe /c update.bat
 cd "C:\servers\hlserver\tfserver\tf"
 curl -O https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1148-windows.zip
-curl -O https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6926-windows.zip
+curl -O https://sm.alliedmods.net/smdrop/1.11/sourcemod-1.11.0-git6931-windows.zip
 powershell -command "Expand-Archive \"C:\servers\hlserver\tfserver\tf\mmsource-1.11.0-git1148-windows.zip\" \"C:\servers\hlserver\tfserver\tf\""
-powershell -command "Expand-Archive \"C:\servers\hlserver\tfserver\tf\sourcemod-1.11.0-git6926-windows.zip\" \"C:\servers\hlserver\tfserver\tf\""
+powershell -command "Expand-Archive \"C:\servers\hlserver\tfserver\tf\sourcemod-1.11.0-git6931-windows.zip\" \"C:\servers\hlserver\tfserver\tf\""
 del Metamod.zip
 del Sourcemod.zip
 cd addons\Sourcemod\configs
